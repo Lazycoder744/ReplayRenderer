@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "ReplayRenderer",
+  "name": "Replay Renderer",
+  "author": "YourName",
+  "version": "1.0.0",
+  "description": "Renders Beat Saber replays to high-quality video frames. F9: Start/Stop | F10: Restart Level | F11: Pause/Resume | H: Hide UI | Supports FPFC/Camera2",
+  "gameVersion": "1.40.8",
+  "dependsOn": {
+    "BSIPA": "^4.2.0"
+  },
+  "features": [],
+  "links": {
+    "project-home": "https://github.com/yourusername/ReplayRenderer",
+    "project-source": "https://github.com/yourusername/ReplayRenderer"
+  }
+}

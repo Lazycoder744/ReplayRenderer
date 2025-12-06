@@ -2,7 +2,7 @@
 The PC implementation of the Render function for Quest!
 
 # This is a WORK IN PROGRESS
-Don't expect anything working! I still need to get some stuff working, make it look pretty and so on
+Don't expect it to function! I still need to get some stuff working, make it look pretty and so on
 
 Supports latest modded version, no other versions tested as of right now
 

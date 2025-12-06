@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <GameDirectory>C:\Users\Ilan\BSManager\BSInstances\1.40.8</GameDirectory>
+    <BeatSaberDir>$(GameDirectory)</BeatSaberDir>
+  </PropertyGroup>
+</Project>

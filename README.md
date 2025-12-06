@@ -31,7 +31,7 @@ A mod that renders Beat Saber replays to high-quality video frames at any resolu
 
 ## Future Plans
 
-- [?] Integration with BeatLeader replay system
+- [ ] Integration with BeatLeader replay system
 - [ ] Integration with ScoreSaber replays
 - [ ] Automatic FFmpeg conversion
 - [ ] Camera path animation

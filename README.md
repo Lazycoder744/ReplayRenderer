@@ -47,4 +47,3 @@ A mod that renders Beat Saber replays to high-quality video frames at any resolu
 
 For issues, questions, or suggestions:
 - Open an issue on GitHub
-- Join the Beat Saber Modding Group Discord

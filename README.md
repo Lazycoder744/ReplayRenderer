@@ -1,5 +1,5 @@
 # ReplayRenderer
-The PC implementation of the Render function for Quest!
+The PC implementation of the Quest's render feature!
 
 # This is a WORK IN PROGRESS
 Don't expect it to function! I still need to get some stuff working, make it look pretty and so on (Also, there are A LOT of gaps I need to fill, just like, not implemented at all)

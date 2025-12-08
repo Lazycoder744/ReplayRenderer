@@ -3,17 +3,15 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using BeatSaberMarkupLanguage;
 
 namespace ReplayRenderer
 {
     /// <summary>
-    /// Integrates a "Render Replay" button into BeatLeader's score details UI
+    /// Integrates a "Render Replay" button into BeatLeader's score details UI, hopefully
     /// </summary>
     public class BeatLeaderUIIntegration : MonoBehaviour
     {
         private Button renderButton;
-        private string currentReplayPath;
         private static bool hasAddedButton = false;
         
         void Start()
@@ -117,10 +115,6 @@ namespace ReplayRenderer
             
             try
             {
-                // Get the current replay info from BeatLeader
-                // This is a simplified approach - you'd need to hook into BeatLeader's API
-                // For now, we'll trigger the standard F9 behavior
-                
                 // Start rendering
                 if (RenderManager.Instance != null)
                 {

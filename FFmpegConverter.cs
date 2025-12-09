@@ -11,7 +11,7 @@ namespace ReplayRenderer
     /// Streams frames directly to FFmpeg without saving PNG files first
     /// This is the PC equivalent of Quest's "Hollywood" renderer
     /// </summary>
-    public class VideoEncoder : MonoBehaviour
+    public class FFmpegConverter : MonoBehaviour
     {
         // FFmpeg process
         private Process ffmpegProcess;
@@ -299,6 +299,11 @@ namespace ReplayRenderer
             {
                 Finish();
             }
+        }
+
+        public static string GetCurrentLevelAudioPath()
+        {
+            throw new NotImplementedException();
         }
     }
 }

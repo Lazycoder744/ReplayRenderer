@@ -9,6 +9,8 @@ namespace ReplayRenderer
         public static PluginConfig Instance { get; set; }
 
         // Render Settings
+        public int FFmpegCRF = 18;
+        public string FFmpegPreset { get; set; } = "medium";
         public virtual int RenderWidth { get; set; } = 1920;
         public virtual int RenderHeight { get; set; } = 1080;
         public virtual int TargetFrameRate { get; set; } = 60;
